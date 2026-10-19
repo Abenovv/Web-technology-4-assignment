@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("assets/montserrat-variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+:root { --green: #0F6B5F; --amber: #F2A93B; --ink: #16302B; --paper: #F4F7F5; --line: #E6EFEC; }
+body { color: var(--ink); background: var(--paper); font-family: Montserrat, sans-serif; }
+.train-page { padding: 2rem; }
+.train-card { max-width: 76rem; margin-inline: auto; background: white; border-radius: 2rem; overflow: hidden; box-shadow: 0 1rem 2.5rem #16302b22; }
+.train-header { padding: 2.4rem 3.5rem; color: white; background: var(--green); }
+.train-header h1 { font-size: clamp(1.35rem, 3.3vw, 2.6rem); font-weight: 700; margin: 0; }
+.train-form { padding: 3.5rem; font-size: 1.2rem; }
+.train-form .form-label { font-weight: 600; font-size: inherit; margin-bottom: .7rem; }
+.train-form .form-control, .train-form .form-select { min-width: 0; min-height: 3.4rem; font-size: inherit; border: 1px solid #d4dfdb; border-radius: 1rem; background-color: var(--paper); color: var(--ink); }
+.train-form .form-floating > .form-control { height: 5rem; }
+.train-form .form-floating > .form-control::placeholder { color: #63706c; opacity: 1; }
+.train-form .form-floating > label { transform: scale(.85) translateY(-.5rem) translateX(.15rem); color: #63706c; }
+.train-form .form-floating > .form-control { padding-top: 2rem; padding-bottom: .5rem; }
+.train-form .form-floating > label::after { background-color: transparent !important; }
+.trip-toggle { border: 1px solid var(--green); border-radius: 3rem; overflow: hidden; }
+.trip-toggle .btn { padding: .7rem 1.7rem; color: var(--green); border: 0; border-radius: 0; font-size: inherit; font-weight: 600; }
+.trip-toggle .btn-check:checked + .btn { color: white; background: var(--green); }
+.form-check-input:checked { background-color: var(--green); border-color: var(--green); }
+.form-check-input { border-color: #9bada7; }
+.form-check-label, .btn, select { cursor: pointer; }
+.carriage-options { display: flex; flex-wrap: wrap; gap: .25rem 1rem; }
+.carriage-options .form-check { margin-right: 0; }
+.train-form .input-group-text { background: var(--green); color: white; font-size: inherit; font-weight: 700; border-color: var(--green); border-radius: 1rem 0 0 1rem; padding-inline: 1rem; }
+.train-actions { display: flex; justify-content: flex-end; gap: .75rem; margin-top: 2rem; }
+.train-actions .btn { border-radius: 3rem; font-weight: 700; padding: .85rem 2.6rem; font-size: inherit; }
+.btn-clear { border: 1px solid var(--ink); color: var(--ink); background: white; }
+.btn-clear:hover { background: var(--line); border-color: var(--ink); }
+.btn-find { background: var(--amber); color: var(--ink); border-color: var(--amber); }
+.btn-find:hover { background: #e89a29; border-color: #e89a29; }
+:where(input, select, textarea, button, a):focus-visible { outline: 3px solid var(--green); outline-offset: 3px; }
+.btn-check:focus-visible + .btn { outline: 3px solid var(--amber); outline-offset: -4px; box-shadow: none; }
+.form-control:focus, .form-select:focus, .form-check-input:focus { border-color: var(--green); box-shadow: 0 0 0 .2rem #0f6b5f30; }
+.assignment-shell { max-width: 58rem; margin: 2rem auto; padding: 2rem; background: white; border: 1px solid var(--line); border-radius: 1.25rem; }
+.assignment-shell h1 { font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 700; }
+.assignment-shell .form-label, .assignment-shell legend { font-weight: 600; font-size: 1rem; }
+.assignment-shell .form-control, .assignment-shell .form-select { min-height: 2.8rem; }
+.assignment-shell .btn-primary { background: var(--green); border-color: var(--green); }
+.assignment-shell .btn-primary:hover { background: #0b554b; }
+.required-note, .form-text { color: #52615b; }
+/* The browser decides validity. These selectors only control its presentation. */
+.registration :is(input, select, textarea):user-invalid { border-color: #b42332; }
+.registration :is(input, select, textarea):user-valid { border-color: var(--green); }
+.registration :is(input, select, textarea):user-invalid ~ .invalid-feedback { display: block; }
+.registration fieldset:has(input:user-invalid) > .invalid-feedback { display: block; }
+.registration .invalid-feedback { color: #b42332; }
+.task-links { display: grid; gap: 1rem; margin-top: 2rem; }
+.task-links a { color: var(--green); font-weight: 600; padding: 1rem; border: 1px solid #cbd8d2; border-radius: .5rem; text-decoration: none; }
+.task-links a:hover { background: var(--line); }
+@media (max-width: 767.98px) {
+  .train-page { padding: .75rem; }
+  .train-card { border-radius: 1.5rem; }
+  .train-header { padding: 1.5rem 1.25rem; }
+  .train-form { padding: 1.5rem; font-size: 1rem; }
+  .trip-toggle { display: flex; }
+  .trip-toggle .btn { padding: .65rem .75rem; }
+  .train-form .form-floating > .form-control { height: 3.7rem; }
+  .train-form .form-control, .train-form .form-select { min-height: 2.8rem; border-radius: .8rem; }
+  .train-form .form-label { margin-bottom: .5rem; }
+  .carriage-options { gap: .25rem .8rem; }
+  .train-actions { flex-direction: column-reverse; gap: .5rem; margin-top: 1.5rem; }
+  .train-actions .btn { padding: .8rem 1rem; }
+  .assignment-shell { margin: .75rem; padding: 1.25rem; }
+}

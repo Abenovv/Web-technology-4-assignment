@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AITU Hack 2026 — Registration</title>
+  <link rel="stylesheet" href="assets/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="assignment-shell">
+    <h1>AITU Hack 2026</h1>
+    <p>Student hackathon registration · 20–22 November 2026</p>
+    <p class="required-note">Fields marked * are required.</p>
+    <form class="registration" action="submitted.html" method="post">
+      <div class="row g-3 mb-3">
+        <div class="col-12 col-md-6">
+          <label class="form-label" for="full-name">Full name *</label>
+          <input class="form-control" type="text" id="full-name" name="full_name" minlength="2" maxlength="40" autocomplete="name" aria-describedby="name-help name-error" required>
+          <div class="form-text" id="name-help">Use 2–40 characters.</div>
+          <div class="invalid-feedback" id="name-error">Enter your name using 2–40 characters.</div>
+        </div>
+        <div class="col-12 col-md-6">
+          <label class="form-label" for="university-email">University email *</label>
+          <input class="form-control" type="email" id="university-email" name="email" autocomplete="email" aria-describedby="email-error" required>
+          <div class="invalid-feedback" id="email-error">Enter a valid email address, such as a.fedenko@astanait.edu.kz.</div>
+        </div>
+        <div class="col-12 col-md-6">
+          <label class="form-label" for="age">Age *</label>
+          <input class="form-control" type="number" id="age" name="age" min="16" max="30" step="1" aria-describedby="age-help age-error" required>
+          <div class="form-text" id="age-help">A whole number from 16 to 30.</div>
+          <div class="invalid-feedback" id="age-error">Enter a whole number from 16 to 30.</div>
+        </div>
+        <div class="col-12 col-md-6">
+          <label class="form-label" for="team-size">Team size *</label>
+          <input class="form-control" type="number" id="team-size" name="team_size" min="1" max="4" step="1" aria-describedby="team-help team-error" required>
+          <div class="form-text" id="team-help">1–4 team members.</div>
+          <div class="invalid-feedback" id="team-error">Choose a whole number from 1 to 4.</div>
+        </div>
+        <div class="col-12 col-md-6">
+          <label class="form-label" for="track">Track *</label>
+          <select class="form-select" id="track" name="track" aria-describedby="track-error" required>
+            <option value="">Choose…</option><option value="Web">Web</option><option value="Mobile">Mobile</option><option value="AI">AI</option><option value="GameDev">GameDev</option>
+          </select>
+          <div class="invalid-feedback" id="track-error">Choose Web, Mobile, AI or GameDev.</div>
+        </div>
+        <div class="col-12 col-md-6">
+          <label class="form-label" for="arrival">Arrival day *</label>
+          <input class="form-control" type="date" id="arrival" name="arrival" min="2026-11-20" max="2026-11-22" aria-describedby="arrival-help arrival-error" required>
+          <div class="form-text" id="arrival-help">20–22 November 2026.</div>
+          <div class="invalid-feedback" id="arrival-error">Choose a date from 20 to 22 November 2026.</div>
+        </div>
+        <div class="col-12 col-md-6">
+          <label class="form-label" for="check-in">Check-in time *</label>
+          <input class="form-control" type="time" id="check-in" name="check_in" min="09:00" max="18:00" step="1800" aria-describedby="time-help time-error" required>
+          <div class="form-text" id="time-help">09:00–18:00, every 30 minutes.</div>
+          <div class="invalid-feedback" id="time-error">Choose a time between 09:00 and 18:00 on the hour or half hour.</div>
+        </div>
+        <div class="col-12 col-md-6">
+          <label class="form-label" for="entry-fee">Entry fee (₸) *</label>
+          <input class="form-control" type="number" id="entry-fee" name="entry_fee" min="0" max="5000" step="500" aria-describedby="fee-help fee-error" required>
+          <div class="form-text" id="fee-help">0–5000 ₸, in steps of 500 ₸.</div>
+          <div class="invalid-feedback" id="fee-error">Enter 0–5000 ₸ in steps of 500 ₸.</div>
+        </div>
+      </div>
+      <fieldset class="mb-3" aria-describedby="experience-error">
+        <legend>Experience level *</legend>
+        <div class="form-check form-check-inline"><input class="form-check-input" type="radio" id="beginner" name="experience" value="beginner" required><label class="form-check-label" for="beginner">Beginner</label></div>
+        <div class="form-check form-check-inline"><input class="form-check-input" type="radio" id="intermediate" name="experience" value="intermediate" required><label class="form-check-label" for="intermediate">Intermediate</label></div>
+        <div class="form-check form-check-inline"><input class="form-check-input" type="radio" id="advanced" name="experience" value="advanced" required><label class="form-check-label" for="advanced">Advanced</label></div>
+        <div class="invalid-feedback" id="experience-error">Choose your experience level.</div>
+      </fieldset>
+      <div class="row g-3 mb-3">
+        <div class="col-12 col-md-6">
+          <label class="form-label" for="github">GitHub profile (optional)</label>
+          <input class="form-control" type="url" id="github" name="github" placeholder="https://github.com/your-name" aria-describedby="github-error">
+          <div class="invalid-feedback" id="github-error">Use a full URL, including https://, or leave this field empty.</div>
+        </div>
+        <div class="col-12 col-md-6">
+          <label class="form-label" for="password">Password *</label>
+          <input class="form-control" type="password" id="password" name="password" minlength="8" maxlength="20" autocomplete="new-password" aria-describedby="password-help password-error" required>
+          <div class="form-text" id="password-help">8–20 characters.</div>
+          <div class="invalid-feedback" id="password-error">Use 8–20 characters.</div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="motivation">Motivation *</label>
+        <textarea class="form-control" id="motivation" name="motivation" rows="4" minlength="50" maxlength="300" aria-describedby="motivation-help motivation-error" required></textarea>
+        <div class="form-text" id="motivation-help">In 50–300 characters, tell us why you want to take part.</div>
+        <div class="invalid-feedback" id="motivation-error">Write between 50 and 300 characters.</div>
+      </div>
+      <div class="form-check mb-4">
+        <input class="form-check-input" type="checkbox" id="rules" name="rules" value="accepted" aria-describedby="rules-error" required>
+        <label class="form-check-label" for="rules">I agree to the hackathon rules *</label>
+        <div class="invalid-feedback" id="rules-error">Accept the rules before registering.</div>
+      </div>
+      <button class="btn btn-primary px-4 py-2" type="submit">Register</button>
+    </form>
+  </main>
+</body>
+</html>

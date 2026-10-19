@@ -1,0 +1,927 @@
+{
+  "browser": "155.0.4283.62",
+  "results": [
+    {
+      "name": "Task 1 fits 375px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 1 labels 375px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 1 fits 768px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 1 labels 768px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 1 fits 1280px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 1 labels 1280px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 fits 375px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 labels 375px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 fits 768px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 labels 768px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 fits 1280px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 labels 1280px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 3 fits 375px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 3 labels 375px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 3 fits 768px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 3 labels 768px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 3 fits 1280px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 3 labels 1280px",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 1 blocks empty submission",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 1 accepts complete form",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 1 has six passenger choices",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 1 Clear empties editable data",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 1 Clear resets agreement and carriage",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 1 Find trains appears above Clear on mobile",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 1 button HTML order remains Clear then Find trains",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 no errors on first load",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Full name: Anna-Maria Lee",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Full name: A",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Full name: Al",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Full name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 University email: a.fedenko@astanait.edu.kz",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 University email: a.fedenko",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 University email: a.fedenko@",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Age: 18",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Age: 15",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Age: 31",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Age: 16",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Age: 30",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Age: 18.5",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Team size: 4",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Team size: 5",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Team size: 2.5",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Team size: 1",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Team size: 0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Track: Web",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Track: (empty)",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Track: Mobile",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Track: AI",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Track: GameDev",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Arrival day: 2026-11-21",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Arrival day: 2026-11-25",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Arrival day: 2026-11-20",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Arrival day: 2026-11-22",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Arrival day: 2026-11-19",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Check-in time: 10:30",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Check-in time: 10:15",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Check-in time: 19:00",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Check-in time: 09:00",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Check-in time: 18:00",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Check-in time: 08:30",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Entry fee: 1500",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Entry fee: 1250",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Entry fee: 6000",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Entry fee: 0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Entry fee: 5000",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 GitHub profile: (empty)",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 GitHub profile: https://github.com/yerassyl-dev",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 GitHub profile: github.com/yerassyl-dev",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Password: Astana2026",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Password: short",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Password: 12345678",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Password: xxxxxxxxxxxxxxxxxxxx",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Motivation: 120 characters",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Motivation: 49 characters",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Motivation: 50 characters",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Motivation: 300 characters",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 full-name prevents more than 40 characters",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 password prevents more than 20 characters",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 motivation prevents more than 300 characters",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 no experience rejected",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 Beginner accepted",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 unchecked rules rejected",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 checked rules accepted",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 required full-name",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 required university-email",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 required age",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 required team-size",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 required track",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 required arrival",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 required check-in",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 required entry-fee",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 required password",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 required motivation",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 changed invalid field shows error",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 valid whole form",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 2 valid POST reaches demo confirmation",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 3 seating is exclusive",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 3 all nine field names sent",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 3 form valid",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 3 keyboard starts at name",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 3 keyboard selects seating",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 3 keyboard checks terms",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 3 keyboard reaches Reserve",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Task 3 keyboard submission works",
+      "passed": true,
+      "details": ""
+    }
+  ],
+  "table": [
+    {
+      "field": "Full name",
+      "id": "full-name",
+      "value": "Anna-Maria Lee",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Full name",
+      "id": "full-name",
+      "value": "A",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Full name",
+      "id": "full-name",
+      "value": "Al",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Full name",
+      "id": "full-name",
+      "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "University email",
+      "id": "university-email",
+      "value": "a.fedenko@astanait.edu.kz",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "University email",
+      "id": "university-email",
+      "value": "a.fedenko",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "University email",
+      "id": "university-email",
+      "value": "a.fedenko@",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Age",
+      "id": "age",
+      "value": "18",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Age",
+      "id": "age",
+      "value": "15",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Age",
+      "id": "age",
+      "value": "31",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Age",
+      "id": "age",
+      "value": "16",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Age",
+      "id": "age",
+      "value": "30",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Age",
+      "id": "age",
+      "value": "18.5",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Team size",
+      "id": "team-size",
+      "value": "4",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Team size",
+      "id": "team-size",
+      "value": "5",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Team size",
+      "id": "team-size",
+      "value": "2.5",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Team size",
+      "id": "team-size",
+      "value": "1",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Team size",
+      "id": "team-size",
+      "value": "0",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Track",
+      "id": "track",
+      "value": "Web",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Track",
+      "id": "track",
+      "value": "",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Track",
+      "id": "track",
+      "value": "Mobile",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Track",
+      "id": "track",
+      "value": "AI",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Track",
+      "id": "track",
+      "value": "GameDev",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Arrival day",
+      "id": "arrival",
+      "value": "2026-11-21",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Arrival day",
+      "id": "arrival",
+      "value": "2026-11-25",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Arrival day",
+      "id": "arrival",
+      "value": "2026-11-20",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Arrival day",
+      "id": "arrival",
+      "value": "2026-11-22",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Arrival day",
+      "id": "arrival",
+      "value": "2026-11-19",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Check-in time",
+      "id": "check-in",
+      "value": "10:30",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Check-in time",
+      "id": "check-in",
+      "value": "10:15",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Check-in time",
+      "id": "check-in",
+      "value": "19:00",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Check-in time",
+      "id": "check-in",
+      "value": "09:00",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Check-in time",
+      "id": "check-in",
+      "value": "18:00",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Check-in time",
+      "id": "check-in",
+      "value": "08:30",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Entry fee",
+      "id": "entry-fee",
+      "value": "1500",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Entry fee",
+      "id": "entry-fee",
+      "value": "1250",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Entry fee",
+      "id": "entry-fee",
+      "value": "6000",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Entry fee",
+      "id": "entry-fee",
+      "value": "0",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Entry fee",
+      "id": "entry-fee",
+      "value": "5000",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "GitHub profile",
+      "id": "github",
+      "value": "",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "GitHub profile",
+      "id": "github",
+      "value": "https://github.com/yerassyl-dev",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "GitHub profile",
+      "id": "github",
+      "value": "github.com/yerassyl-dev",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Password",
+      "id": "password",
+      "value": "Astana2026",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Password",
+      "id": "password",
+      "value": "short",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Password",
+      "id": "password",
+      "value": "12345678",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Password",
+      "id": "password",
+      "value": "xxxxxxxxxxxxxxxxxxxx",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Motivation",
+      "id": "motivation",
+      "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Motivation",
+      "id": "motivation",
+      "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "field": "Motivation",
+      "id": "motivation",
+      "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "field": "Motivation",
+      "id": "motivation",
+      "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    }
+  ]
+}
